@@ -32,16 +32,20 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     #Django apps
+    'admin_interface',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'colorfield',
 
     #Local apps
-    'app',
+    'app.apps.AppConfig',
 ]
+
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
