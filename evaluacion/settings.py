@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'colorfield',
+    'django.contrib.humanize',
 
     #Local apps
     'app.apps.AppConfig',
